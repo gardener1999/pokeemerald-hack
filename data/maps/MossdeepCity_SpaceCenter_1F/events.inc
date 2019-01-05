@@ -9,7 +9,6 @@ MossdeepCity_SpaceCenter_1F_EventObjects: @ 8532D18
 	object_event 8, EVENT_OBJ_GFX_MAGMA_MEMBER_M, 0, 10, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 2, MossdeepCity_SpaceCenter_1F_EventScript_223208, FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
 	object_event 9, EVENT_OBJ_GFX_MAGMA_MEMBER_M, 0, 13, 2, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 1, 0, MossdeepCity_SpaceCenter_1F_EventScript_22321F, FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
 	object_event 10, EVENT_OBJ_GFX_NINJA_BOY, 0, 2, 5, 0, MOVEMENT_TYPE_INVISIBLE, 1, 1, 0, 0, MossdeepCity_SpaceCenter_1F_EventScript_2231CF, FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_INVISIBLE_NINJA_BOY
-	object_event 11, EVENT_OBJ_GFX_STEVEN, 0, 1, 4, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, MossdeepCity_SpaceCenter_1F_EventScript_2231B9, FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
 
 MossdeepCity_SpaceCenter_1F_MapWarps: @ 8532E20
 	warp_def 7, 9, 0, 8, MAP_MOSSDEEP_CITY
@@ -18,4 +17,3 @@ MossdeepCity_SpaceCenter_1F_MapWarps: @ 8532E20
 
 MossdeepCity_SpaceCenter_1F_MapEvents:: @ 8532E38
 	map_events MossdeepCity_SpaceCenter_1F_EventObjects, MossdeepCity_SpaceCenter_1F_MapWarps, 0x0, 0x0
-

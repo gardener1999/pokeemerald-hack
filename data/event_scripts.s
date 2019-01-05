@@ -273,7 +273,6 @@ gStdScripts_End:: @ 81DC2CC
 	.include "data/maps/SootopolisCity_House5/scripts.inc"
 	.include "data/maps/SootopolisCity_House6/scripts.inc"
 	.include "data/maps/SootopolisCity_House7/scripts.inc"
-	.include "data/maps/SootopolisCity_LotadAndSeedotHouse/scripts.inc"
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc"
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.inc"
 	.include "data/maps/EverGrandeCity_SidneysRoom/scripts.inc"
@@ -1037,7 +1036,6 @@ EventScript_2715DE:: @ 82715DE
 	setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2
 	setflag FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION
 	setflag FLAG_HIDE_BATTLE_TOWER_OPPONENT
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
 	setflag FLAG_HIDE_LITTLE_ROOT_TOWN_PLAYERS_BEDROOM_MOM
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
@@ -1073,7 +1071,6 @@ EventScript_2715DE:: @ 82715DE
 	setflag FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN
 	setflag FLAG_HIDE_SLATEPORT_CITY_SCOTT
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
-	setflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 	setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL
@@ -1117,7 +1114,6 @@ EverGrandeCity_HallOfFame_EventScript_2717C1:: @ 82717C1
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY
 	setvar VAR_0x40C6, 2
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
-	clearflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL
 	clearflag FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL
 	setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
@@ -2134,7 +2130,6 @@ Route103_EventScript_272141:: @ 8272141
 	lock
 	faceplayer
 	goto_if_unset FLAG_HAS_MATCH_CALL, Route101_EventScript_272155
-	goto_if_unset FLAG_0x119, Route101_EventScript_1FA2D2
 
 Route101_EventScript_272155:: @ 8272155
 	msgbox gUnknown_082A5C9C, MSGBOX_YESNO
@@ -10573,3 +10568,9 @@ gText_082C877B:: @ 82C877B
 	.align 2
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+	.include "data/maps/NewMap1/text.inc"
+
+	.include "data/maps/NewMap2/scripts.inc"
+	.include "data/maps/NewMap2/text.inc"

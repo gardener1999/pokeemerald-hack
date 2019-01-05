@@ -1,25 +1,3 @@
-SootopolisCity_LotadAndSeedotHouse_MapScripts:: @ 822722A
-	.byte 0
-
-SootopolisCity_LotadAndSeedotHouse_EventScript_22722B:: @ 822722B
-	special GetSeedotSizeRecordInfo
-	lock
-	faceplayer
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_227369, MSGBOX_DEFAULT
-	special sub_81B94B0
-	waitstate
-	copyvar VAR_RESULT, VAR_0x8004
-	compare VAR_RESULT, 255
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_227272
-	special CompareSeedotSize
-	compare VAR_RESULT, 1
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_22727C
-	compare VAR_RESULT, 2
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_227286
-	compare VAR_RESULT, 3
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_227290
-	release
-	end
 
 SootopolisCity_LotadAndSeedotHouse_EventScript_227272:: @ 8227272
 	msgbox SootopolisCity_LotadAndSeedotHouse_Text_2275BC, MSGBOX_DEFAULT
@@ -207,4 +185,3 @@ SootopolisCity_LotadAndSeedotHouse_Text_2278F2: @ 82278F2
 	.string "{STR_VAR_2}'s {STR_VAR_3}-inch colossus!\p"
 	.string "A LOTAD bigger than a SEEDOT\n"
 	.string "always wanted!$"
-

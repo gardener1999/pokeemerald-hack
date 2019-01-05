@@ -6,10 +6,10 @@ LittlerootTown_MapBlockdata::
 
 	.align 2
 LittlerootTown_Layout::
-	.4byte 0x14
-	.4byte 0x14
+	.4byte 22
+	.4byte 23
 	.4byte LittlerootTown_MapBorder
 	.4byte LittlerootTown_MapBlockdata
 	.4byte gTileset_General
-	.4byte gTileset_Petalburg
+	.4byte gTileset_Rustboro
 

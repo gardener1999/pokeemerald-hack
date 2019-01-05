@@ -220,7 +220,6 @@
 	.include "data/maps/SootopolisCity_House5/events.inc"
 	.include "data/maps/SootopolisCity_House6/events.inc"
 	.include "data/maps/SootopolisCity_House7/events.inc"
-	.include "data/maps/SootopolisCity_LotadAndSeedotHouse/events.inc"
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_1F/events.inc"
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_B1F/events.inc"
 	.include "data/maps/EverGrandeCity_SidneysRoom/events.inc"
@@ -531,3 +530,6 @@
 	.include "data/maps/Route119_House/events.inc"
 	.include "data/maps/Route124_DivingTreasureHuntersHouse/events.inc"
 
+	.include "data/maps/NewMap1/events.inc"
+
+	.include "data/maps/NewMap2/events.inc"

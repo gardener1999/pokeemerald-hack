@@ -1,10 +1,12 @@
-OldaleTown_House1_EventObjects: @ 852D7B4
-	object_event 1, EVENT_OBJ_GFX_WOMAN_2, 0, 6, 4, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, 0, 0, OldaleTown_House1_EventScript_1FBE86, 0
+OldaleTown_House1_MapWarps::
+	warp_def 2, 8, 0, 0, MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR
+	warp_def 3, 8, 0, 0, MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR
+	warp_def 12, 1, 3, 0, MAP_NEW_MAP2
 
-OldaleTown_House1_MapWarps: @ 852D7CC
-	warp_def 3, 8, 0, 0, MAP_OLDALE_TOWN
-	warp_def 4, 8, 0, 0, MAP_OLDALE_TOWN
+OldaleTown_House1_MapCoordEvents::
+	coord_event 2, 2, 3, VAR_TEMP_0, 0, OldaleTown_House1_EventScript_KnockOnDoor
+	coord_event 7, 2, 3, VAR_TEMP_0, 0, OldaleTown_House1_EventScript_KnockOnDoor2
+	coord_event 12, 2, 3, VAR_TEMP_0, 0, OldaleTown_House1_EventScript_KnockOnDoor3
 
-OldaleTown_House1_MapEvents:: @ 852D7DC
-	map_events OldaleTown_House1_EventObjects, OldaleTown_House1_MapWarps, 0x0, 0x0
-
+OldaleTown_House1_MapEvents::
+	map_events 0x0, OldaleTown_House1_MapWarps, OldaleTown_House1_MapCoordEvents, 0x0

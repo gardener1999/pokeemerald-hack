@@ -5,7 +5,7 @@ LittlerootTown_MaysHouse_2F_EventScript_2926FE:: @ 82926FE
 
 LittlerootTown_BrendansHouse_1F_EventScript_292704:: @ 8292704
 LittlerootTown_MaysHouse_1F_EventScript_292704:: @ 8292704
-	msgbox LittlerootTown_BrendansHouse_1F_Text_1F7A1C, MSGBOX_DEFAULT
+	msgbox LittlerootTown_BrendansHouse_1F_Text_Guy, MSGBOX_DEFAULT
 	applymovement VAR_0x8004, LittlerootTown_BrendansHouse_1F_Movement_27259E
 	waitmovement 0
 	compare VAR_0x8005, 0
@@ -65,8 +65,6 @@ LittlerootTown_MaysHouse_2F_EventScript_292799:: @ 8292799
 	delay 30
 	setvar VAR_0x4092, 6
 	setflag FLAG_0x051
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2
 	checkplayergender
 	compare VAR_RESULT, 0
 	call_if_eq LittlerootTown_BrendansHouse_2F_EventScript_2927DF
@@ -323,7 +321,7 @@ LittlerootTown_MaysHouse_1F_EventScript_2929C5:: @ 82929C5
 	goto_if_eq LittlerootTown_BrendansHouse_1F_EventScript_292A94
 	compare VAR_0x4092, 7
 	goto_if_eq LittlerootTown_BrendansHouse_1F_EventScript_292AB0
-	msgbox LittlerootTown_BrendansHouse_1F_Text_1F7A1C, MSGBOX_DEFAULT
+	msgbox LittlerootTown_BrendansHouse_1F_Text_Guy, MSGBOX_DEFAULT
 	release
 	end
 

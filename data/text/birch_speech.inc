@@ -1,61 +1,59 @@
 gText_Birch_Welcome:: @ 82C897B
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
-	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
-	.string "$"
+.string "Hey... Hey!\p"
+.string "You're awake!\p"
+.string "You were out for quite some time,\n"
+.string "my friend. Wow!\n"
+.string "...\p"
+.string "$"
 
 gText_Birch_Pokemon:: @ 82C89FB
-	.string "This is what we call a “POKéMON.”\p"
-	.string "\n"
-	.string "$"
+
 
 gText_Birch_MainSpeech:: @ 82C8A1F
-	.string "This world is widely inhabited by\n"
-	.string "creatures known as POKéMON.\p"
-	.string "We humans live alongside POKéMON,\n"
-	.string "at times as friendly playmates, and\l"
-	.string "at times as cooperative workmates.\p"
-	.string "And sometimes, we band together\n"
-	.string "and battle others like us.\p"
-	.string "But despite our closeness, we don't\n"
-	.string "know everything about POKéMON.\p"
-	.string "In fact, there are many, many\n"
-	.string "secrets surrounding POKéMON.\p"
-	.string "To unravel POKéMON mysteries,\n"
-	.string "I've been undertaking research.\l"
-	.string "That's what I do.\p"
-	.string "$"
+.string "You: Ugh... Agh...\p"
+.string "...Where... Where am I?\p"
+.string "Man: Now he's awake...\p"
+.string "Just lie back down, kid, relax...\p"
+.string "You: ...\p"
+.string "What... what happened...\n"
+.string "...Agh! Christ, my head!\p"
+.string "Man: Whoa, take it easy...\n"
+.string "Want a glass of water?\p"
+.string "You: No... I'm good...\p"
+.string "Man: Alright then. Don't worry,\n"
+.string "you're in good hands. Relax.\p"
+.string "You're gonna be OK.\p"
+.string "You: Who... who are you?\p"
+.string "Man: I might ask you the same.\p"
+.string "Can you tell me your name?\p"
+.string "You: Name?.... Uhh...\p"
+.string "Man: What, you don't remember?\p"
+.string "$"
 
 gText_Birch_AndYouAre:: @ 82C8BD0
-	.string "And you are?$"
+
 
 gText_Birch_BoyOrGirl:: @ 82C8BDD
-	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+
 
 gText_Birch_WhatsYourName:: @ 82C8BFF
-	.string "All right.\n"
-	.string "What's your name?$"
+.string "What's your name, kid?$"
 
 gText_Birch_SoItsPlayer:: @ 82C8C1C
-	.string "So it's {PLAYER}{KUN}?$"
+.string "I see... you're {PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer:: @ 82C8C2A
-	.string "Ah, okay!\p"
-	.string "You're {PLAYER}{KUN} who's moving to my\n"
-	.string "hometown of LITTLEROOT.\l"
-	.string "I get it now!\p"
-	.string "$"
+.string "Good.\n"
+.string "At least you remember that much.\p"
+.string "$"
 
 gText_Birch_AreYouReady:: @ 82C8C7A
-	.string "All right, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to unfold.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of POKéMON where dreams,\l"
-	.string "adventure, and friendships await!\p"
-	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
-	.string "$"
+.string "You: But... how did I...\p"
+.string "Man: Lie back down. The doctor will\n"
+.string "be here in a minute. Get some rest.\p"
+.string "You: My fucking head...\p"
+.string "Man: It's OK. Here he is.\n"
+.string "Here's the doctor.\p"
+.string "Just relax.\p"
+.string "Wait for the morphine to kick in...\p"
+.string "$"

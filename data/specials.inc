@@ -130,10 +130,6 @@ gSpecials:: @ 81DBA64
 	def_special ScrSpecial_IsDecorationFull
 	def_special ScrSpecial_TraderMenuGiveDecoration
 	def_special ScrSpecial_TraderDoDecorationTrade
-	def_special GetSeedotSizeRecordInfo
-	def_special CompareSeedotSize
-	def_special GetLotadSizeRecordInfo
-	def_special CompareLotadSize
 	def_special TV_PutNameRaterShowOnTheAirIfNicnkameChanged
 	def_special TV_CopyNicknameToStringVar1AndEnsureTerminated
 	def_special TV_CheckMonOTIDEqualsPlayerID

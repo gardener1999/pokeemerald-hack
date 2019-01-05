@@ -70,9 +70,7 @@ MossdeepCity_Gym_EventScript_2208D1:: @ 82208D1
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
 	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
 	setvar VAR_0x405D, 1
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
 	setvar VAR_0x409F, 1
 	call MossdeepCity_Gym_EventScript_22095B
 	closemessage
@@ -643,4 +641,3 @@ MossdeepCity_Gym_Text_221EB8: @ 8221EB8
 	.string "LIZA: You brought just one POKéMON!\p"
 	.string "TATE: We need you to bring at least…\n"
 	.string "LIZA: Two POKéMON when you come back.$"
-

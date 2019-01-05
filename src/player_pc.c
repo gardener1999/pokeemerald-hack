@@ -140,8 +140,8 @@ static const struct MenuAction sPlayerPCMenuActions[] =
 {
     { gText_ItemStorage, PlayerPC_ItemStorage },
     { gText_Mailbox, PlayerPC_Mailbox },
-    { gText_Decoration, PlayerPC_Decoration },
-    { gText_TurnOff, PlayerPC_TurnOff }
+    { gText_Decoration, PlayerPC_Decoration }
+    //{ gText_TurnOff, PlayerPC_TurnOff }
 };
 
 static const u8 gBedroomPC_OptionOrder[] =
@@ -365,7 +365,7 @@ static void PlayerPCProcessMenuInput(u8 taskId)
             ClearWindowTilemap(data[4]);
             RemoveWindow(data[4]);
             schedule_bg_copy_tilemap_to_vram(0);
-            gTasks[taskId].func = PlayerPC_TurnOff;
+            //gTasks[taskId].func = PlayerPC_TurnOff;
             break;
         default:
             sub_8198070(data[4], FALSE);
@@ -417,21 +417,21 @@ static void PlayerPC_Decoration(u8 var)
     sub_8126B2C(var); //DoPlayerPCDecoration(var);
 }
 
-static void PlayerPC_TurnOff(u8 taskId)
-{
-    if (gPcItemMenuOptionsNum == 4) // if the option count is 4, we are at the bedroom PC and not player PC, so do gender specific handling.
-    {
-        if (gSaveBlock2Ptr->playerGender == MALE)
-            ScriptContext1_SetupScript(LittlerootTown_BrendansHouse_2F_EventScript_1F863F);
-        else
-            ScriptContext1_SetupScript(LittlerootTown_MaysHouse_2F_EventScript_1F958F);
-    }
-    else
-    {
-        EnableBothScriptContexts();
-    }
-    DestroyTask(taskId);
-}
+// static void PlayerPC_TurnOff(u8 taskId)
+// {
+//     if (gPcItemMenuOptionsNum == 4) // if the option count is 4, we are at the bedroom PC and not player PC, so do gender specific handling.
+//     {
+//         if (gSaveBlock2Ptr->playerGender == MALE)
+//           //  ScriptContext1_SetupScript(LittlerootTown_BrendansHouse_2F_EventScript_1F863F);
+//         else
+//           //  ScriptContext1_SetupScript(LittlerootTown_MaysHouse_2F_EventScript_1F958F);
+//     }
+//     else
+//     {
+//         EnableBothScriptContexts();
+//     }
+//     DestroyTask(taskId);
+// }
 
 static void InitItemStorageMenu(u8 taskId, u8 var)
 {

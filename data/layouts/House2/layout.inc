@@ -11,5 +11,5 @@ House2_Layout::
 	.4byte House2_MapBorder
 	.4byte House2_MapBlockdata
 	.4byte gTileset_Building
-	.4byte gTileset_GenericBuilding
+	.4byte gTileset_Shop
 

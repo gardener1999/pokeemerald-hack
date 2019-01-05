@@ -295,7 +295,7 @@ const u8 gHM06ItemDescription[] = _("A rock-crushingly\ntough attack that\nmay l
 const u8 gHM07ItemDescription[] = _("Attacks the foe\nwith enough power\nto climb waterfalls.");
 const u8 gHM08ItemDescription[] = _("Dives underwater\nthe 1st turn, then\nattacks next turn.");
 // FireRed/LeafGreen key items
-const u8 gOaksParcelItemDescription[] = _("A parcel for PROF.\nOAK from a POKéMON\nMART's clerk.");
+const u8 gOaksParcelItemDescription[] = _("A suspicious\n-looking package.");
 const u8 gPokeFluteItemDescription[] = _("A sweet-sounding\nflute that awakens\nPOKéMON.");
 const u8 gSecretKeyItemDescription[] = _("The key to the\nCINNABAR ISLAND\nGYM's entrance.");
 const u8 gBikeVoucherItemDescription[] = _("A voucher for\nobtaining a bicycle\nfrom the BIKE SHOP.");

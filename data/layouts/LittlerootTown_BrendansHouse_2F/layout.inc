@@ -11,5 +11,5 @@ LittlerootTown_BrendansHouse_2F_Layout::
 	.4byte LittlerootTown_BrendansHouse_2F_MapBorder
 	.4byte LittlerootTown_BrendansHouse_2F_MapBlockdata
 	.4byte gTileset_Building
-	.4byte gTileset_BrendansMaysHouse
+	.4byte gTileset_GenericBuilding
 

@@ -1,4 +1,4 @@
-LilycoveCity_DepartmentStoreElevator: @ 84838A0
+LilycoveCity_DepartmentStoreElevator::
 	.4byte LilycoveCity_DepartmentStoreElevator_Layout
 	.4byte LilycoveCity_DepartmentStoreElevator_MapEvents
 	.4byte LilycoveCity_DepartmentStoreElevator_MapScripts
@@ -12,4 +12,3 @@ LilycoveCity_DepartmentStoreElevator: @ 84838A0
 	.2byte 0
 	map_header_flags allow_bike=0, allow_escape_rope=0, allow_run=0, show_map_name=0
 	.byte MAP_BATTLE_SCENE_NORMAL
-

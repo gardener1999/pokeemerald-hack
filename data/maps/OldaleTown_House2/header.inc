@@ -1,4 +1,4 @@
-OldaleTown_House2: @ 8482B9C
+OldaleTown_House2::
 	.4byte House2_Layout
 	.4byte OldaleTown_House2_MapEvents
 	.4byte OldaleTown_House2_MapScripts
@@ -12,4 +12,3 @@ OldaleTown_House2: @ 8482B9C
 	.2byte 0
 	map_header_flags allow_bike=0, allow_escape_rope=0, allow_run=0, show_map_name=0
 	.byte MAP_BATTLE_SCENE_NORMAL
-
