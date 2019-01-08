@@ -1,5 +1,5 @@
 NewMap1_EventObjects::
-	object_event 1, EVENT_OBJ_GFX_BOY_1, 0, 6, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, FALSE, 0, NewMap1_EventScript_Guy, 0
+	object_event 1, EVENT_OBJ_GFX_MAN_1, 0, 6, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, FALSE, 0, NewMap1_EventScript_Guy, 0
 
 NewMap1_MapWarps::
 	warp_def 3, 9, 3, 2, MAP_OLDALE_TOWN_HOUSE1

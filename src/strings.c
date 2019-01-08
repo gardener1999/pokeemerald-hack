@@ -252,7 +252,7 @@ const u8 gText_ThePokemonList[] = _("the POKéMON LIST");
 const u8 gText_TheShop[] = _("the shop");
 const u8 gText_ThePC[] = _("the PC");
 
-const u8 *const gReturnToXStringsTable[] = 
+const u8 *const gReturnToXStringsTable[] =
 {
     gText_TheField,
     gText_TheBattle,
@@ -268,7 +268,7 @@ const u8 *const gReturnToXStringsTable[] =
     gText_ThePC
 };
 
-const u8 *const gReturnToXStringsTable2[] = 
+const u8 *const gReturnToXStringsTable2[] =
 {
     gText_TheField,
     gText_TheBattle,
@@ -283,7 +283,7 @@ const u8 gText_TMHMPocket[] = _("TMs & HMs");
 const u8 gText_BerriesPocket[] = _("BERRIES");
 const u8 gText_KeyItemsPocket[] = _("KEY ITEMS");
 
-const u8 *const gPocketNamesStringsTable[] = 
+const u8 *const gPocketNamesStringsTable[] =
 {
     gText_ItemsPocket,
     gText_PokeBallsPocket,
@@ -481,32 +481,32 @@ ALIGNED(4) const u8 gText_CantTradeWithTrainer[] = _("You can't trade with that\
 ALIGNED(4) const u8 gText_NotPkmnOtherTrainerWants[] = _("That isn't the type of POKéMON\nthat the other TRAINER wants.");
 ALIGNED(4) const u8 gText_ThatIsntAnEgg[] = _("That isn't an EGG.");
 const u8 gText_Register[] = _("REGISTER");
-const u8 gText_Attack3[] = _("ATTACK");
-const u8 gText_Defense3[] = _("DEFENSE");
-const u8 gText_SpAtk4[] = _("SP. ATK");
-const u8 gText_SpDef4[] = _("SP. DEF");
-const u8 gText_Speed2[] = _("SPEED");
+const u8 gText_Attack3[] = _("Attack");
+const u8 gText_Defense3[] = _("Defense");
+const u8 gText_SpAtk4[] = _("Sp. Atk");
+const u8 gText_SpDef4[] = _("Sp. Def");
+const u8 gText_Speed2[] = _("Speed");
 const u8 gText_HP4[] = _("HP");
 const u8 gUnknown_085EA364[] = _("");
 const u8 gText_OTSlash[] = _("OT/");
 const u8 gText_RentalPkmn[] = _("RENTAL POKéMON");
-const u8 gText_TypeSlash[] = _("TYPE/");
-const u8 gText_Power[] = _("POWER");
-const u8 gText_Accuracy2[] = _("ACCURACY");
+const u8 gText_TypeSlash[] = _("Type/");
+const u8 gText_Power[] = _("Power");
+const u8 gText_Accuracy2[] = _("Accuracy");
 const u8 gText_Appeal[] = _("APPEAL");
 const u8 gText_Jam[] = _("JAM");
-const u8 gText_Status[] = _("STATUS");
-const u8 gText_ExpPoints[] = _("EXP. POINTS");
-const u8 gText_NextLv[] = _("NEXT LV.");
+const u8 gText_Status[] = _("Status");
+const u8 gText_ExpPoints[] = _("Exp. Points");
+const u8 gText_NextLv[] = _("Next Lv.");
 const u8 gText_RibbonsVar1[] = _("RIBBONS: {STR_VAR_1}");
 const u8 gText_EmptyString5[] = _("");
 const u8 gUnknown_085EA3C1[] = _("EVENTS");
 const u8 gText_Switch[] = _("SWITCH");
-const u8 gText_PkmnInfo[] = _("POKéMON INFO");
-const u8 gText_PkmnSkills[] = _("POKéMON SKILLS");
-const u8 gText_BattleMoves[] = _("BATTLE MOVES");
-const u8 gText_ContestMoves[] = _("C0NTEST MOVES");
-const u8 gText_Info[] = _("INFO");
+const u8 gText_PkmnInfo[] = _("Character Info");
+const u8 gText_PkmnSkills[] = _("Character Skills");
+const u8 gText_BattleMoves[] = _("Battle Moves");
+const u8 gText_ContestMoves[] = _("Contest Moves");
+const u8 gText_Info[] = _("Info");
 const u8 gText_EggWillTakeALongTime[] = _("It looks like this EGG will\ntake a long time to hatch.");
 const u8 gText_EggWillTakeSomeTime[] = _("What will hatch from this?\nIt will take some time.");
 const u8 gText_EggWillHatchSoon[] = _("It moves occasionally.\nIt should hatch soon.");
@@ -725,13 +725,13 @@ const u8 gText_AboutG_Mode[] = _("ABOUT G-MODE");
 const u8 gText_E_Mode[] = _("E-MODE");
 const u8 gText_G_Mode[] = _("G-MODE");
 const u8 gText_MenuOptionPokedex[] = _("POKéDEX");
-const u8 gText_MenuOptionPokemon[] = _("POKéMON");
-const u8 gText_MenuOptionBag[] = _("BAG");
+const u8 gText_MenuOptionPokemon[] = _("Team");
+const u8 gText_MenuOptionBag[] = _("Bag");
 const u8 gText_MenuOptionPokenav[] = _("POKéNAV");
 const u8 gUnknown_085EB278[] = _("");
-const u8 gText_MenuOptionSave[] = _("SAVE");
-const u8 gText_MenuOptionOption[] = _("OPTION");
-const u8 gText_MenuOptionExit[] = _("EXIT");
+const u8 gText_MenuOptionSave[] = _("Save");
+const u8 gText_MenuOptionOption[] = _("Options");
+const u8 gText_MenuOptionExit[] = _("Exit");
 const u8 gUnknown_085EB28A[] = __("  ");
 const u8 gUnknown_085EB28C[] = _("5BP");
 const u8 gUnknown_085EB290[] = _("10BP");
@@ -787,8 +787,8 @@ const u8 gUnknown_085EB4C7[] = _("SWAP: NUMBER");
 const u8 gUnknown_085EB4D4[] = _("SWAP: NOTES");
 const u8 gUnknown_085EB4E0[] = _("OPEN LEVEL");
 const u8 gText_BattleBasics[] = _("BATTLE BASICS");
-const u8 gText_PokemonNature[] = _("POKéMON NATURE");
-const u8 gText_PokemonMoves[] = _("POKéMON MOVES");
+const u8 gText_PokemonNature[] = _("Character Nature");
+const u8 gText_PokemonMoves[] = _("Character Moves");
 const u8 gText_Underpowered[] = _("UNDERPOWERED");
 const u8 gText_WhenInDanger[] = _("WHEN IN DANGER");
 const u8 gUnknown_085EB532[] = _("PYRAMID: POKéMON");
@@ -1507,13 +1507,13 @@ const u8 gUnknown_085EE6A3[] = _("Game time");
 const u8 gUnknown_085EE6AD[] = _("RTC time");
 const u8 gUnknown_085EE6B6[] = _("Updated time");
 const u8 gText_MenuPokedex[] = _("POKéDEX");
-const u8 gText_MenuPokemon[] = _("POKéMON");
-const u8 gText_MenuBag[] = _("BAG");
+const u8 gText_MenuPokemon[] = _("Team");
+const u8 gText_MenuBag[] = _("Bag");
 const u8 gText_MenuPokenav[] = _("POKéNAV");
 const u8 gText_MenuPlayer[] = _("{PLAYER}");
-const u8 gText_MenuSave[] = _("SAVE");
-const u8 gText_MenuOption[] = _("OPTION");
-const u8 gText_MenuExit[] = _("EXIT");
+const u8 gText_MenuSave[] = _("Save");
+const u8 gText_MenuOption[] = _("Options");
+const u8 gText_MenuExit[] = _("Exit");
 const u8 gText_MenuRetire[] = _("RETIRE");
 const u8 gText_MenuRest[] = _("REST");
 const u8 gText_SafariBallStock[] = _("SAFARI BALLS\nStock: {STR_VAR_1}");
@@ -1751,7 +1751,7 @@ const u8 gText_PkmnForgotMoveAndLearnedNew[] = _("{STR_VAR_1} forgot {STR_VAR_3}
 const u8 gUnknown_085EF9C8[] = _("{STR_VAR_1} did not learn the\nmove {STR_VAR_2}.");
 const u8 gText_GiveUpTeachingNewMove[] = _("Give up trying to teach a new\nmove to {STR_VAR_1}?");
 const u8 gText_WhichMoveToForget2[] = _("Which move should be\nforgotten?\p");
-const u8 gText_BattleMoves2[] = _("BATTLE MOVES");
+const u8 gText_BattleMoves2[] = _("Battle Moves");
 const u8 gText_ContestMoves2[] = _("CONTEST MOVES");
 const u8 gUnknown_085EFA4C[] = _("TYPE/");
 const u8 gText_PPSlash[] = _("PP/");

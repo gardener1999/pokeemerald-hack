@@ -132,6 +132,8 @@ applymovement 1, LittlerootTown_BrendansHouse_2F_Movement_Thomas_2
 waitmovement 0
 setflag FLAG_HIDE_RAUL
 setflag FLAG_HIDE_THOMAS
+givemon SPECIES_ABRA, 5, ITEM_NONE, 0x0, 0x0, 0
+setflag FLAG_SYS_POKEMON_GET
 release
 return
 end

@@ -377,10 +377,10 @@ const u8 gPoliwrathPokedexText[] = _(
     "across the Pacific Ocean without effort.");
 
 const u8 gAbraPokedexText[] = _(
-    "A POKéMON that sleeps 18 hours a day.\n"
-    "Observation revealed that it uses\n"
-    "TELEPORT to change its location once\n"
-    "every hour.");
+    "You're an 18 year old boy.\n"
+    "You were found in a ghetto, unconscious.\n"
+    "You don't remember any details of your\n"
+    "past life. Where is your home?...");
 
 const u8 gKadabraPokedexText[] = _(
     "It is rumored that a boy with psychic\n"

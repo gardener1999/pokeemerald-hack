@@ -432,8 +432,8 @@ const u32 gMonShinyPalette_Poliwrath[] = INCBIN_U32("graphics/pokemon/palettes/p
 const u8 gMonIcon_Poliwrath[] = INCBIN_U8("graphics/pokemon/icons/poliwrath_icon.4bpp");
 const u8 gMonFootprint_Poliwrath[] = INCBIN_U8("graphics/pokemon/footprints/poliwrath_footprint.1bpp");
 
-const u32 gMonStillFrontPic_Abra[] = INCBIN_U32("graphics/pokemon/front_pics/abra_still_front_pic.4bpp.lz");
-const u32 gMonPalette_Abra[] = INCBIN_U32("graphics/pokemon/palettes/abra_palette.gbapal.lz");
+const u32 gMonStillFrontPic_Abra[] = INCBIN_U32("graphics/trainers/front_pics/brendan_front_pic.4bpp.lz");
+const u32 gMonPalette_Abra[] = INCBIN_U32("graphics/trainers/palettes/brendan.gbapal.lz");
 const u32 gMonBackPic_Abra[] = INCBIN_U32("graphics/pokemon/back_pics/abra_back_pic.4bpp.lz");
 const u32 gMonShinyPalette_Abra[] = INCBIN_U32("graphics/pokemon/palettes/abra_shiny_palette.gbapal.lz");
 const u8 gMonIcon_Abra[] = INCBIN_U8("graphics/pokemon/icons/abra_icon.4bpp");

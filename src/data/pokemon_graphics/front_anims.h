@@ -788,12 +788,7 @@ const union AnimCmd gAnimCmd_POLIWRATH_1[] =
 
 const union AnimCmd gAnimCmd_ABRA_1[] =
 {
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 13),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_END,
+  
 };
 
 const union AnimCmd gAnimCmd_KADABRA_1[] =
@@ -4805,7 +4800,7 @@ const union AnimCmd gAnimCmd_UNOWN_QMARK_1[] =
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
- 
+
 const union AnimCmd *const gAnims_NONE[] ={
     gAnimCmd_General_Frame0,
     gAnimCmd_NONE_1,

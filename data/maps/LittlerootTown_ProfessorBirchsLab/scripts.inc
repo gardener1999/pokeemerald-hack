@@ -256,9 +256,12 @@ release
 applymovement 4, LittlerootTown_ProfessorBirchsLab_Movement_Raul
 waitmovement 0
 setmetatile 11, 4, 514, 0
+special DrawWholeMapView
+
 applymovement 4, LittlerootTown_ProfessorBirchsLab_Movement_Raul_2
 waitmovement 0
 setmetatile 11, 5, 514, 0
+special DrawWholeMapView
 msgbox LittlerootTown_ProfessorBirchsLab_Text_Raul_3, MSGBOX_DEFAULT
 waitmessage
 releaseall
